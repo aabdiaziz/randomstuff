@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    height: 100px;
+    background-color: #0088cc;
+}
+
+#burgerMenu {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-image: url("hamburger.jpeg");
+}
+
+#menu {
+    height: 150px;
+    width: 100px;
+    background-color: #003bb3;
+    float: right;
+}
+
+#openModal {
+    height: 80px;
+    width: 80px;
+    background-color: #003bb3;
+    color: white;
+}
+#Modal {
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+}

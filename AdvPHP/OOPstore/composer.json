@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "ValhallaStore\\": "src/",
+      "ValhallaStore\\Product\\": "src/Products/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="addOrder.css">
+</head>
+<body>
+    <main>
+        <div id="background">
+            <h1>Please Input Orders</h1>
+            <form id="orders">
+
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" name="name" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Order:</label>
+                    <input type="text" name="order" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Price:</label>
+                    <input type="number" min="1" step="0.01" name="price"  class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Quantity:</label>
+                    <input type="number" name="quantity" class="form-control" id="quantity">
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" id="spam" class="btn btn-success" value="Add Order" >
+                    <div id="total"></div>
+                </div>
+            </form>
+            <div class="ordersPage"><h1>Orders</h1></div>
+            <div class="current">
+
+            </div>
+        </div>
+    </main>
+</body>
+<script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script src="orders.js"></script>
+</html>

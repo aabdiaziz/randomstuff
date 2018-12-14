@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'grotesk fm';
+    src: url("Grotesk/grotesk.otf");
+}
+
+.container {
+    width: auto;
+    height: 400px;
+    display: inline;
+    position: absolute;
+}
+
+.words {
+    font-size: 100px;
+    display: inline-block;
+    font-family: "grotesk fm", "Times New Roman", sans-serif;
+    color: grey;
+    float:left;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    margin: 60px auto;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+}
+
+.green {
+    width:100px;
+    height: 240px;
+    background-color: rgba(83,160,9,1);
+    transform: rotate(20deg);
+    position: relative;
+    top: -40px;
+    left: -50px;
+    z-index: 1;
+}
+
+.blue {
+    width:100px;
+    height: 240px;
+    background-color: rgba(8,115,132,1);
+    transform: rotate(-20deg);
+    position: relative;
+    top: -280px;
+    right: -150px;
+    z-index: 2;
+}
+
+.orange {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(214,68,5,1);
+    position: relative;
+    top: -420px;
+    right: -50px;
+}
+
+.darkBlue {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(13,65,90,1);
+    position: relative;
+    top: -420px;
+    right: -50px;
+}
+
+.leftBar {
+    width:40px;
+    height: 240px;
+    background-color: white;
+    position: relative;
+    transform: rotate(20deg);
+    border-radius: 20px;
+    top: -687px;
+    right: -39px;
+    z-index: 3;
+}
+
+.rightBar {
+    width:44px;
+    height: 210px;
+    background-color: white;
+    position: relative;
+    transform: rotate(-20deg);
+    border-radius: 20px;
+    top: -930px;
+    right: -115px;
+    z-index: 3;
+}
+
+.middleBar {
+    height:40px;
+    width: 220px;
+    background-color: white;
+    position: relative;
+    top: -1010px;
+}

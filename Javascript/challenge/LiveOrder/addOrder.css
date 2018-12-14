@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    margin-top: 0px;
+    background-color: dodgerblue;
+    height: 100vh;
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#background {
+    width: 600px;
+    margin: 0 auto 30px auto;
+    /*margin-bottom: 30px;*/
+}
+
+.current {
+    height: 400px;
+    background-color: deepskyblue;
+
+}

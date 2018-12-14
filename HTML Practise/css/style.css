@@ -1,0 +1,15 @@
+div {
+	height: 250px;
+	width: 250px;
+	border:1px solid black;
+}
+
+.primary {
+	height: 250px;
+	width: 250px;
+	border:1px solid red;
+}
+
+body {
+	background-color:red;
+}

@@ -1,0 +1,29 @@
+body {
+	background-color: #DEB887;
+
+}
+div.main-body {
+	background-color: #5F9EA0;
+	border:1px black solid;
+	margin-left:200px;
+	margin-right:200px;
+	margin-top: 20px;
+	margin-bottom:30px;
+	text-align:center;
+	color: #DEB887;
+	border:1px black solid;
+	margin:30px;
+	background-color:green;
+}
+/* .main-text{
+	text-align:center;
+	color: #DEB887;
+	border:1px black solid;
+	margin:30px;
+	background-color:green;
+}*/
+
+#picture-text {
+	margin-bottom:80px;
+}
+

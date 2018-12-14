@@ -1,0 +1,10 @@
+{{#each products}}
+    <div class="items">
+        <img src={{image}} />
+        <div class="description">
+            <p class="head">{{name}}</p>
+            <p class="tail">{{desc}}</p>
+            <p class="price">From <span class="newPrice">${{price}}</span> <span class='lineThrough'>${{originalPrice}}</span></p>
+        </div>
+    </div>
+{{/each}}

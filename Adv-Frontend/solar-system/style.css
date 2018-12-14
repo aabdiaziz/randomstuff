@@ -1,0 +1,352 @@
+
+h1 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+svg {
+    background-color: black;
+}
+
+#neptune {
+    animation: neptuneOrbit 8s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes neptuneOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-310px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-310px)
+        rotate(-360deg);
+    }
+}
+
+#uranus {
+
+    animation: uranusOrbit 7s infinite linear;
+    transform-origin: center;
+    z-index: 2;
+}
+
+@keyframes uranusOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-280px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-280px)
+        rotate(-360deg);
+    }
+}
+
+.saturn {
+
+    animation: saturnOrbit 6s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes saturnOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-250px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-250px)
+        rotate(-360deg);
+    }
+}
+
+#jupiter {
+
+    animation: jupiterOrbit 5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes jupiterOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-220px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-220px)
+        rotate(-360deg);
+    }
+}
+
+
+#mars {
+
+    animation: marsOrbit 4s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes marsOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-190px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-190px)
+        rotate(-360deg);
+    }
+}
+
+#earth {
+
+    animation: earthOrbit 3s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes earthOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-160px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-160px)
+        rotate(-360deg);
+    }
+}
+
+#venus {
+
+    animation: venusOrbit 2.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes venusOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-130px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-130px)
+        rotate(-360deg);
+    }
+}
+
+#mercury {
+
+    animation: mercuryOrbit 2s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes mercuryOrbit {
+    from {
+        transform: rotate(0deg)
+        translate(-110px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-110px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid1 {
+
+    animation: asteroidOrbit1 7s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit1 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid2 {
+
+    animation: asteroidOrbit2 6.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit2 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid3 {
+
+    animation: asteroidOrbit3 6s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit3 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid4 {
+
+    animation: asteroidOrbit4 5.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit4 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid5 {
+
+    animation: asteroidOrbit5 4.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit5 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid6 {
+
+    animation: asteroidOrbit6 4.4s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit6 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid7 {
+
+    animation: asteroidOrbit7 3s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit7 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid8 {
+
+    animation: asteroidOrbit8 2.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit8 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid9 {
+
+    animation: asteroidOrbit9 1.5s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit9 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}
+
+#asteroid10 {
+
+    animation: asteroidOrbit10 1s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes asteroidOrbit10 {
+    from {
+        transform: rotate(0deg)
+        translate(-205px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-205px)
+        rotate(-360deg);
+    }
+}

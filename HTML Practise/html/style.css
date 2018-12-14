@@ -1,0 +1,12 @@
+body {
+	background-color:blue;
+}
+
+.center {
+	display: flex;
+	align-content:center;
+}
+
+.center-email {
+	
+}

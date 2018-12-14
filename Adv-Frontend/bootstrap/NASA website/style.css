@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+
+.navHeight {
+    height: 100px;
+    border: 1px solid white;
+}
+
+.mainContent {
+    height: 600px;
+    border: 1px solid white;
+}
+
+.containerHeight {
+    height: 300px;
+    border: 1px solid white;
+}
+
+
